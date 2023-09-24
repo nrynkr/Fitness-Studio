@@ -1,0 +1,48 @@
+.mainDiv{
+    background-color: #f97316;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+.mainDiv h1{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.enrollnowBTN{
+    background-color: #f97316;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 20px;
+    font-size: 40px;
+    font-weight: 700;
+    cursor: pointer;
+    margin: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+.enrollnowBTN:hover{
+    background-color: #f97316;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 20px;
+    font-size: 40px;
+    font-weight: 700;
+    cursor: pointer;
+    margin: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    transform: scale(1.1);
+}
+
+#bgphoto{
+    background-image: url("../../assets/bck.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}

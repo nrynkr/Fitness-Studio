@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	
+}
+#enrol{
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-size: 1.2rem;
+	font-weight: 500;
+	transition: transform 0.3s;
+	text-align: right;
+	background-color: #1a1919;
+}
+
+#enrol:hover{
+	transform: scale(1.1);
+	color: white;
+	background-color: green;
+	border:none;
+	border-radius: 5px;
+}
+
+.enrollNowBTN:hover {
+	transform: scale(1.1);
+	color: white;
+	background-color: green;
+	border:none;
+	border-radius: 5px;
+}
+
+:root {
+	--mainColor: #567add;
+	--mainColorLight: #5767aa;
+	--secondaryColor: rgb(227, 93, 93);
+	--textColor: #060606;
+}
+
+header {
+	background-color: rgb(20, 20, 20)	;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 80px;
+	padding: 0 2rem;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+header img {
+	height: 60px;
+	width: 60px;
+	border-radius: 10px;
+	
+}
+
+nav a {
+	margin: 0 1.5rem;
+	color: #ddd4d4;
+	text-decoration: none;
+	font-weight: 500;
+	padding: 10px;
+	transition: transform 1s;
+}
+
+nav a:hover,
+nav a.active {
+	background:linear-gradient(to right,rgb(255, 217, 0),orange,rgb(255, 111, 0));
+	transform: translateY(-5px);
+	border-radius: 10px;
+	color: black;
+}
+
+header .nav-btn {
+	display: none;
+	position:relative;
+	top:-10px;
+}
+.social-links {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+
+@media only screen and (max-width: 1024px) {
+	header {
+		padding: 0 1rem;
+	}
+	header .nav-btn {
+		visibility: visible;
+		opacity: 1;
+		display: block;
+	}
+
+	nav a {
+		margin: 0 1rem;
+	}
+
+	header nav {
+		position: fixed;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 1.5rem;
+		/* color: azure; */
+		background-color: rgb(23, 22, 22);
+		transition: 1s;
+		transform: translateY(-100vh);
+	}
+	header .responsive_nav {
+		transform: none;
+		z-index: 1;
+	}
+	nav .nav-close-btn {
+		position: absolute;
+		top: 2rem;
+		right: 2rem;
+	}
+	nav a {
+		font-size: 1.2rem;
+		color: aliceblue;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	header {
+		padding: 0 1rem;
+	}
+
+	.nav-btn {
+		visibility: visible;
+		opacity: 1;
+	}
+
+	header nav {
+		position: fixed;
+		top: 0;
+		left: 0;
+		height: 60vh;
+
+		width: 100%;
+		background-color: rgb(18, 17, 17);
+		transition: 0.5s;
+		transform: translateX(-100%);
+	}
+
+	header .responsive_nav {
+		transform: translateX(0);
+	}
+
+	.nav-close-btn {
+		top: 1rem;
+		right: 1rem;
+		z-index:10;
+	}
+
+	nav a {
+		font-size: 1.2rem;
+	}
+
+	.dropdown-content a {
+		margin-top: 0.5rem;
+	}
+
+	.dropdown.active .dropdown-content {
+		top: 100%;
+		left: -10px;
+		background-color: black;
+		color: #fff;
+	}
+}
+
+.enrollNowBTN {
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-size: 1.2rem;
+	font-weight: 500;
+	transition: transform 0.3s;
+	text-align: right;
+	background-color: #837f7f;
+}
+ 
+#nav-bar-media{
+	
+	background-color: white;
+	color:black;
+}
+
+#nav-bar-media:hover{
+	background-color:rgb(218, 134, 32);
+}
+

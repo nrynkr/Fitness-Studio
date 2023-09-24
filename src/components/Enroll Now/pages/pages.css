@@ -1,0 +1,158 @@
+/* Auth Page CSS */
+
+
+
+
+
+/* User Details Page CSS */
+input[type="text"] {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+textarea{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.gymHeading{
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 10px;
+    text-shadow: 5px 8px 5px #ccc;
+    background: -webkit-linear-gradient(#0c86b6, #271cc0);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+
+
+
+/* Discount Page CSS */
+
+.container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .image {
+    display: block;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: white;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: black;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
+  .selectPlan{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(95, 94, 94);
+  }
+
+  #selectedPlan{
+    font-size: 18px;
+    font-weight: 500;
+    color: #a14343;
+  }
+
+  #selectedPlan > option{
+    font-size: 18px;
+    font-weight: 500;
+    color: #348b29;
+  }
+
+.selectBTN{
+    font-size: 18px;
+    font-weight: 500;
+    color: #348b29;
+    border: 2px solid rgb(244, 115, 10);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.priceDES{
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(255, 145, 0);
+}
+
+.discountDES{
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(255, 111, 0)
+}
+
+.totalDES{
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+}
+
+.radio-class{
+  transform: scale(0.5);
+  position: relative;
+  top:20px;
+}
+
+#classes-btn-flex > button{
+  display:flex;
+  background-color: rgb(241, 122, 17);
+}
+
+#classes-btn-flex > button{
+  border:none;
+}
+
+#submit{
+  background-color: orange;
+}
+
+#submit:hover{
+  border:none;
+  background-color: green;
+}
+
+#logout{
+  background-color: orange;
+}
+
+#logout:hover{
+  border:none;
+  background-color: red;
+}

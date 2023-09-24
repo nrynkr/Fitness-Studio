@@ -1,0 +1,63 @@
+.page_404 {
+    padding: 40px 0;
+    background: #fff;
+    font-family: 'Arvo', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page_404 img {
+    width: 100%;
+}
+
+.four_zero_four_bg {
+
+    /* background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif); */
+    background-image: url(https://media1.giphy.com/media/EIiJp9cQ3GeEU/giphy.webp?cid=ecf05e47gmv1hjsm7eb3rm58ywg24v4cm1hn0q6zy8xb3mwg&ep=v1_gifs_search&rid=giphy.webp&ct=g);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+
+.four_zero_four_bg h1 {
+    font-size: 80px;
+}
+
+.four_zero_four_bg h3 {
+    font-size: 80px;
+}
+
+
+.contant_box_404 {
+    margin-top: -50px;
+}
+
+.h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button{
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}

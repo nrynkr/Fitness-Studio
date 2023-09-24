@@ -1,0 +1,15 @@
+.scroll-to-top {
+	position: relative;
+}
+.scroll_icon {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	cursor: pointer;
+	z-index: 1000;
+	text-align: center;
+}
+.arrow {
+	height: 50px;
+	width: 50px;
+}
